@@ -16,6 +16,9 @@
 /* this is what make the background image resize based on screen  size */
   overflow: hidden;
 }
+
+/* Nav Bar Section */
+
 .nav-section {
   width: 100vw;
   height: 75px;
@@ -27,6 +30,18 @@
   top: 15px;
   left: 115px;
   float: left;
+}
+.full-nav-menu {
+  display: none;
+  background-color: lightblue;
+  width: 100vw;
+  height: 75px;
+  position: absolute;
+}
+.menu-position {
+  float: left;
+  margin: 0 14%;
+  padding: 29px 0;
 }
 .menu-icon {
   position: absolute;
@@ -49,12 +64,28 @@
   margin: 15px 25px;
   float: left;
 }
+
+/* Main Body Styling */
+
 .center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+/* Bottom section of page view */
+
+.bottom-nav {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  width: 50px;
+}
+
+/* font information */
+
 .font-color {
   color: white;
 }
@@ -67,10 +98,20 @@
   font-size: 24px;
   text-align: center;
 }
-.bottom-nav {
-  position: absolute;
-  left: 50%;
-  bottom: 20px;
-  transform: translateX(-50%);
-  width: 50px;
+
+
+
+/* media queries for size modification begin */
+
+@media (min-width: 750px) {
+    .full-nav-menu {
+      display: block;
+      background-color: black;
+    }
+    .nav-img {
+      display: none;
+    }
+    .menu-img {
+      display: none;
+    }
 }
