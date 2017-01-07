@@ -1,3 +1,8 @@
+/* Style sheet for My Portfolio - Assessment */
+
+/* font styles and icons library */
+<script src="https://use.fontawesome.com/87cca5b32c.js"></script>
+
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +44,7 @@
 }
 .menu-position {
   float: left;
-  margin: 0 14%;
+  margin: 0 13%;
   padding: 29px 0;
 }
 .menu-icon {
