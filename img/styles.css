@@ -6,6 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+a:link {
+  text-decoration: none;
+}
+a:visited{
+  color: white
+}
+a:hover {
+  font-weight: bold;
+}
 .body-size{
   min-width: 350px;
   min-height: 1000px;
@@ -55,6 +64,7 @@
   left: 15px;
   width: 100px;
   float: left;
+  cursor: pointer;
 }
 .social-icons {
   position: absolute;
@@ -123,10 +133,10 @@
     .full-nav-menu {
       display: block;
     }
-    .nav-img {
+    .social-icons {
       display: none;
     }
-    .menu-img {
+    .menu-icon {
       display: none;
     }
 }
