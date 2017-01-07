@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body-size{
+  min-width: 350px;
+  min-height: 1000px;
+}
+.bkgrd-img {
+  background: url(main-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+/* this is what make the background image resize based on screen  size */
+
+  min-height: 750px;
+  overflow: hidden;
+}
