@@ -6,6 +6,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+ /* keep links looking pretty */
+
 a:link {
   text-decoration: none;
 }
