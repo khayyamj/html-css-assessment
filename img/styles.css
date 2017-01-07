@@ -49,3 +49,28 @@
   margin: 15px 25px;
   float: left;
 }
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.font-color {
+  color: white;
+}
+.lg-font {
+  font-size: 108px;
+  text-align: center;
+}
+.sm-font-caps {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+}
+.bottom-nav {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  width: 50px;
+}
